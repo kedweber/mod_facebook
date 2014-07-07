@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+	<name>MOD_FACEBOOK</name>
+	<author>Jasper van Rijbroek</author>
+	<creationDate>17 Oktober 2013</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Moyo Web Architects. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>jasper@moyoweb.nl</authorEmail>
+	<authorUrl>http://moyoweb.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_FACEBOOK_DESC</description>
+	<files>
+		<filename module="mod_facebook">mod_facebook.php</filename>
+		<folder>tmpl</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="username"
+						type="text"
+						default=""
+						label="MOD_FACEBOOK_FIELD_FACEBOOK_USERNAME_LABEL"
+						description="MOD_FACEBOOK_FIELD_FACEBOOK_USERNAME_DESC">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
