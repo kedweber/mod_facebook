@@ -2,7 +2,7 @@
 
 ## Description
 
-Visually, this module is rendered as an <ASIDE> tag in a webpage. The "fb-root" div tag is hardcoded within the template to avoid issues with autocreation. It provides the ability for your visitors to like a particular page and publish it automatically to their own Facebook timeline \(previously called the wall\).
+Visually, this module is rendered as an FB button in an aside tag. The "fb-root" div tag is hardcoded within the template to avoid issues with autocreation. It provides the ability for your visitors to like a particular page and publish it automatically to their own Facebook timeline \(previously called the wall\).
 
 Using the [Facebook Connect portion of the SDK for JS API](http://developers.facebook.com/docs/javascript), 
 this module injects a Javascript into the webpage's Document Object Model \(DOM\). 
