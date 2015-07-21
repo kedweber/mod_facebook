@@ -1,9 +1,10 @@
 {
-    "name": "moyo/facebook",
+    "name": "moyo/mod_facebook",
     "type": "joomlatools-installer",
     "description": "Facebook",
     "keywords": ["joomla", "moyo"],
-    "homepage": "https://moyoweb.assembla.com/code/moyo-content/git-28/nodes",
+    "original-homepage": "https://moyoweb.assembla.com/code/moyo-content/git-28/nodes",
+    "homepage": "https://github.com/kedweber/mod_facebook",
     "authors": [
         {
             "name": "Dave Li",
