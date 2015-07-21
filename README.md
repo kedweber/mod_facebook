@@ -26,26 +26,16 @@ from the local repository;
 
 ```json
 {
-    "name": "moyo/mod_facebook",
+    "name": "cta/mod_facebook",
     "type": "vcs",
-    "url": "https://github.com/kedweber/mod_facebook.git"
-}
-```
-
-and from the official repository;
-
-```json
-{
-    "name": "moyo/mod_facebook",
-    "type": "vcs",
-    "url": "https://github.com/moyoweb/mod_facebook.git"
+    "url": "https://github.com/cta-int/mod_facebook.git"
 }
 ```
 
 The require section should contain the following line:
 
 ```json
-    "moyo/mod_facebook": "1.0.*",
+    "cta/mod_facebook": "1.0.*",
 ```
 
 Afterwards, one just needs to run the command `composer update` from the root of your Joomla project. This will 
